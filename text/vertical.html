@@ -5,8 +5,24 @@
 <title>竖排文字转换 | Steve的小工具网站</title>
 <script>
 function generate(){
-    var in=document.getElementById("in").innerHTML;
-    var 
+    var textin=document.getElementById("textin").innerHTML;
+    var num=document.getElementById("num").innerHTML;
+    var out=[];
+    for(var i=0;i<textin.length;i++){
+        if(i>=num){
+            out[i%num]=textin[i]+" "+out[i%num];
+        }
+		else{
+			out.push(textin[i]);
+		}
+    }
+	document.getElementById("out").innerHTML=out.join("\n");
+}
+function copyText(){
+    var obj=document.getElementById("out");
+    obj.select();
+    document.execCommand("copy");
+    alert("复制成功");
 }
 </script>
 </head>
@@ -14,11 +30,11 @@ function generate(){
   <h1>竖排文字转换 <a href="https://github.com/SteveTaizhou/SteveTaizhou.github.io">GitHub上的项目</a></h1>
   <p><a href="..">上一级</a> <a href=".">索引</a></p>
   <p>输入文字：</p>
-  <input type="text" name="textin" id="in"><br>
+  <input type="text" name="textin" id="textin"><br>
   <p>输入列数：</p>
-  <input type="number" name="textin" id="in"><br>
-  <button></button>
-  <p><span style="user-select:all;"><code id="out">空空如也</code></span></p>
+  <input type="number" name="numin" id="num"><br>
+  <p><button type="button" onclick="generate()">转换</button><button type="button" onclick="copyText()">全选并复制</button></p>
+  <p><textarea id="out">空空如也</textarea></p>
   <p>还没准备好哦。</p>
 </body>
 </html>
