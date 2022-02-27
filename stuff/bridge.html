@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>网桥| Steve的小工具网站</title>
+<script>
+function copyText(){
+    var obj=document.getElementById("text");
+    obj.select();
+    document.execCommand("copy");
+    alert("复制成功");
+}
+</script>
+</head>
+<body>
+  <h1>网桥 <a href="https://github.com/SteveTaizhou/SteveTaizhou.github.io">GitHub上的项目</a></h1>
+  <p>原版去<a href="https://bridges.torproject.org/bridges?transport=obfs4#">这里</a> 上次更新：2022年2月27日</p>
+  <p><textarea id="text">obfs4 104.194.235.58:63047 464F1FFB68F1B86ED8F740E2C1E6CC4F0D375E39 cert=/YP6d+x5KXmCkHipSnn9cprh5OVzKdT3pUxYgzpm17bD+ZfQBXOJbmPzq32RTyMdOF7bNw iat-mode=0<br>
+obfs4 93.95.230.220:443 82DBED30BB5D0B9B76CFC9367DADE2AAD5BC244D cert=ION+9pzeYJy9/cac9a9BFsu6sGo8uyBEm4ae2AqfY2NaIVHkarJcEagEsSMpDx9zSi0tLw iat-mode=0<br>
+obfs4 68.93.134.147:13581 5C3BA3A8661D0EEF6480F1C76CAC9692B00D45C5 cert=FDYyKp8vCiRYUgsGjgsZ7p6SoQmD6crOeQyJ1zhRSQgwPzHnx4dczx4ti12vaou5enClRA iat-mode=0</textarea></p>
+</body>
+</html>
