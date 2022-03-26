@@ -10,7 +10,8 @@ function copy(){
     obj.innerHTML=query.substring(1,query.length);
     obj.select();
     document.execCommand("copy");
-    alert("asd")
+    alert("复制成功");
+    history.back(-1);
 }
 window.onload=copy;
 </script>
