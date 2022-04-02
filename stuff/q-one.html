@@ -5,7 +5,10 @@
 <title>Q-one管理员工具| Steve的小工具网站</title>
 <script>
 function copy1(){
-    var obj=document.getElementById("text");
+    var text1=document.getElementById("text1").innerHTML;
+    var text2=document.getElementById("text2").innerHTML;
+    var text3=document.getElementById("text3");
+    text1.innerHTML="你好，你的内容“"+text1+"”审核不通过，链接："+text2+"，请修改之后私信我审核。";
     obj.select();
     document.execCommand("copy");
     alert("复制成功");
@@ -16,7 +19,7 @@ function copy1(){
   <h1>Q-one管理员工具 <a href="https://github.com/SteveTaizhou/SteveTaizhou.github.io">GitHub上的项目</a></h1>
   <p><a href="..">上一级</a> <a href=".">索引</a></p>
   <h1>审核不通过回复</h1>
-  <p>标题：<input type="text" name="text1" id="text1"><br>链接：<input type="text" name="text2" id="text2"><br>输出：<textarea id="out">空空如也</textarea><p>
+  <p>标题：<input type="text" name="text1" id="text1"><br>链接：<input type="text" name="text2" id="text2"><br>输出：<textarea id="out"><code><span style="user-select:all;" id="text3">stevetaizhou.github.io</span></code></textarea><p>
   <p><button type="button" onclick="copy1()">全选并复制</button></p>
 </body>
 </html>
