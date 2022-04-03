@@ -8,9 +8,10 @@
 function copy1(){
     var text1=document.getElementById("text1").value;
     var text2=document.getElementById("text2").value;
-    var text3=document.getElementById("text3");
-    text3.innerHTML="你好，你的内容“"+text1+"”审核不通过，链接："+text2+"，请修改之后私信我审核。";
-    text3.select();
+    var text3=document.getElementById("text3").value;
+    var text4=document.getElementById("text4");
+    text4.innerHTML="你好，你的内容“"+text1+"”审核不通过，链接："+text2+"，原因："+text3+"，请修改之后私信我审核。";
+    text4.select();
     document.execCommand("copy");
     alert("复制成功");
 }
@@ -21,7 +22,7 @@ function copy1(){
   <p><a href="..">上一级</a> <a href=".">索引</a></p>
   <p><button type="button" onclick="history.back(-1)">< 返回</button></p>
   <h1>审核不通过回复</h1>
-  <p>标题：<input type="text" name="text1" id="text1"><br>链接：<input type="text" name="text2" id="text2"><br>输出：<textarea id="text3">空空如也</textarea><p>
+  <p>标题：<input type="text" name="text1" id="text1"><br>链接：<input type="text" name="text2" id="text2"><br>原因：<input type="text" name="text3" id="text3"><br>输出：<textarea id="text4">空空如也</textarea><p>
   <p><button type="button" onclick="copy1()">生成并复制</button></p>
 </body>
 </html>
