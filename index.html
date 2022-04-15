@@ -19,7 +19,9 @@
     '<img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-imgbed/0a25760a-9cad-4b49-a1bf-1f6d63b07bd5.gif" alt="动画" title="动画">',
     '<img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-imgbed/f4369bd2-c43d-44e2-bab1-d850f2189e76.gif" alt="动画" title="动画">',
     '<img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-imgbed/03923453-4251-4d9b-8d6b-4fcfac922969.gif" alt="动画" title="动画">'
-    ]
+    ];
+	var rand=Math.floor(Math.random()*10);
+	obj.innerHTML=pics[rand];
   }
 </script>
 </head>
@@ -32,7 +34,7 @@
   <p><a href="./scratch/">Scratch专区</a></p>
   <p>本网页已经访问<img src="https://count.getloli.com/get/@stevetaizhou1?theme=moebooru-h"  alt="计数器（可能无法加载？）" title="计数器（可能无法加载？）">次</p>
   <p id="animation"></p>
-  <p><button></button></p>
+  <p><button type="button" onclick="showAnimation">来一波动画</button></p>
   <div id="gitalk-container"></div>
   <script language="javascript">
   var gitalk = new Gitalk({
