@@ -6,8 +6,6 @@
 <title>Steve的小工具网站</title>
 <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/gitalk/1.7.2/gitalk.min.css">
 <script src="https://cdn.bootcdn.net/ajax/libs/gitalk/1.7.2/gitalk.min.js"></script>
-<script src="/js/basicstyle.js"></script>
-<script src="/js/canvas-nest.js"></script>
 <script language="javascript">
   function showAnimation(){
     var obj=document.getElementById("animation");
@@ -31,6 +29,7 @@
 <body>
   <h1>欢迎来到Steve的小工具网站！ <a href="https://github.com/SteveTaizhou/SteveTaizhou.github.io">GitHub上的项目</a> 刚加的------> </h1>
   <p>请收藏我们的网址：<code><span style="user-select:all;">stevetaizhou.github.io</span></code></p>
+  <div id="heads"></div>
   <p><a href="./text/">文字处理工具</a></p>
   <p><a href="./download/">下载站</a></p>
   <p><a href="./stuff/">杂项</a></p>
@@ -38,8 +37,8 @@
   <p><a href="./links.html">链接收藏</a></p>
   <p>本网页已经访问<img src="https://count.getloli.com/get/@stevetaizhou1?theme=moebooru-h"  alt="计数器（可能无法加载？）" title="计数器（可能无法加载？）">次</p>
   <p id="animation"></p>
-	<p><button type="button" onclick="showAnimation()">来一波动画</button></p>
-	<p>请注意：动画容量在95MiB左右，不建议在移动数据情况下加载。</p>
+  <p><button type="button" onclick="showAnimation()">来一波动画</button></p>
+  <p>请注意：动画容量在95MiB左右，不建议在移动数据情况下加载。</p>
   <div id="gitalk-container"></div>
   <script language="javascript">
     var gitalk = new Gitalk({
@@ -52,5 +51,7 @@
     });
     gitalk.render('gitalk-container');    // 渲染Gitalk评论组件
   </script>
+  <script src="/js/basicstyle.js"></script>
+  <script src="/js/canvas-nest.js"></script>
 </body>
 </html>
