@@ -20,7 +20,7 @@
                 l: o,
                 z: n(i, "zIndex", -1),
                 o: n(i, "opacity", .8),
-                c: n(i, "color", "255,255,255"),
+                c: n(i, "color", "0,0,0"),
                 n: n(i, "count", 99)
             }
         }
