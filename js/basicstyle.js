@@ -25,7 +25,7 @@ obj.innerHTML='<a href="https://github.com/SteveTaizhou/SteveTaizhou.github.io/"
                 l: o,
                 z: n(i, "zIndex", -1),
                 o: n(i, "opacity", .8),
-                c: n(i, "color", "255,255,255"),
+                c: n(i, "color", "120,179,255"),
                 n: n(i, "count", 99)
             }
         }
