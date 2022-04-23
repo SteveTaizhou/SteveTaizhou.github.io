@@ -3,6 +3,9 @@
 <head>
 <meta charset="utf-8">
 <title>竖排文字转换 | Steve的小工具网站</title>
+<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/gitalk/1.7.2/gitalk.min.css">
+<link rel="stylesheet" href="/css/heads.css">
+<script src="https://cdn.bootcdn.net/ajax/libs/gitalk/1.7.2/gitalk.min.js"></script>
 <script type="text/javascript">
 function generate(){
     var textin=document.getElementById("textin").innerHTML;
@@ -27,6 +30,9 @@ function copyText(){
 </script>
 </head>
 <body>
+  <header id="headers">
+  </header>
+  <div id="basic"></div>
   <h1>竖排文字转换 <a href="https://github.com/SteveTaizhou/SteveTaizhou.github.io">GitHub上的项目</a></h1>
   <p><a href="..">上一级</a> <a href=".">索引</a></p>
   <p>输入文字：</p>
@@ -36,5 +42,9 @@ function copyText(){
   <p><button type="button" onclick="generate()">转换</button><button type="button" onclick="copyText()">全选并复制</button></p>
   <p><textarea id="out">空空如也</textarea></p>
   <p>还没准备好哦。</p>
+  <div id="gitalk-container"></div>
+  <script src="/js/basicstyle.js" type="text/javascript"></script>
+  <script src="/js/heads.js" type="text/javascript"></script>
+  <script src="/js/gitalkg.js" type="text/javascript"></script>
 </body>
 </html>
