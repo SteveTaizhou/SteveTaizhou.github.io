@@ -12,7 +12,7 @@ document.addEventListener('visibilitychange', function() {
         document.title = '欢迎回来！φ(゜▽゜*)♪ - ' + OriginTitile;/*自定义标题+原标题，可删除原标题*/
         titleTime = setTimeout(function() {
             document.title = OriginTitile;         
-        }, 3500);                  /*设置标题时间，单位毫秒*/
+        }, 2000);                  /*设置标题时间，单位毫秒*/
     }
 });
 
