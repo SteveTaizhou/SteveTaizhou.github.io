@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Marked in the browser</title>
+</head>
+
+<body>
+<div id="content"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+<script>
+    $(function(){
+        $.ajax({
+            type:"get",
+            url:"https://stevetaizhou.github.io/tools/mds/%E5%BF%85%E5%BA%94%E5%9B%BE%E7%89%87%E7%88%AC%E5%8F%96.md",
+            dataType:"html",
+            success:function(res){
+               show(res)
+            }
+        })
+
+        function show(data) {
+            document.getElementById('content').innerHTML = marked.parse(data);
+        }
+    })
+</script>
+</body>
+</html>
