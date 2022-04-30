@@ -10,5 +10,5 @@
 
 安卓版：[这里](/games/a-dark-night-2.1.0.apk) 没有测试过，语言未知。  
 应用名叫做 A Dark Night，根据介绍看，和原版的 A Dark Room 是一样的。  
-版本：2.1.0 来源：<https://a-dark-night.cn.aptoide.com/app>
+版本：2.1.0 来源：[Aptoide](https://a-dark-night.cn.aptoide.com/app)
 
