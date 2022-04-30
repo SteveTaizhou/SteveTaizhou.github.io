@@ -1,4 +1,5 @@
-欢迎游玩！去[⇲这里](https://www.xiaodao0.com/admin/index.html?lang=cn)
+欢迎游玩！去[⇲这里](https://www.xiaodao0.com/admin/index.html?lang=cn)  
+其他链接：[⇲这里](https://qiujunya.com/adarkroom/?lang=zh_cn)
 
 官方给出的游玩链接：[⇲这里](http://adarkroom.doublespeakgames.com/?lang=zh_cn)  
 初次加载会有点慢，接下来就会好多了。
