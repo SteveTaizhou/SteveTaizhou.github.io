@@ -13,3 +13,4 @@
 应用名叫做 A Dark Night，根据介绍看，和原版的 A Dark Room 是一样的。  
 版本：2.1.0 来源：[Aptoide](https://a-dark-night.cn.aptoide.com/app)
 
+iOS版：[⇲这里](https://apps.apple.com/us/app/a-dark-room/id736683061)
