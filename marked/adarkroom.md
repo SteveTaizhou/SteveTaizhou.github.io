@@ -1,5 +1,8 @@
 欢迎游玩！去[⇲这里](https://www.xiaodao0.com/admin/index.html?lang=cn)
 
+官方给出的游玩链接：[⇲这里](http://adarkroom.doublespeakgames.com/?lang=zh_cn)  
+初次加载会有点慢，接下来就会好多了。
+
 原版叫做：A Dark Room，不知道由于什么原因，翻译成了小黑屋。  
 [GitHub上的项目](https://github.com/doublespeakgames/adarkroom)
 
