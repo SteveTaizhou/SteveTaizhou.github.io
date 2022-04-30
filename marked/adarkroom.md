@@ -9,7 +9,7 @@
 
 由于技术原因，无法放在Steve的小工具网站上，所以先放外链。
 
-安卓版：[⇲这里](https://github.com/SteveTaizhou/SteveTaizhou.github.io/releases/download/A_Dark_Room-1.18-android/A.Dark.Room.v1.18_apk-mod.net.apk) [美国加速（2022年4月30日）](https://gh.gh2233.ml/https://github.com/SteveTaizhou/SteveTaizhou.github.io/releases/download/A_Dark_Room-1.18-android/A.Dark.Room.v1.18_apk-mod.net.apk)
+安卓版：[⇲这里](https://github.com/SteveTaizhou/SteveTaizhou.github.io/releases/download/A_Dark_Room-1.18-android/A.Dark.Room.v1.18_apk-mod.net.apk) [美国加速（2022年4月30日）](https://gh.gh2233.ml/https://github.com/SteveTaizhou/SteveTaizhou.github.io/releases/download/A_Dark_Room-1.18-android/A.Dark.Room.v1.18_apk-mod.net.apk)  
 语言：只支持英文。  
 版本：1.18 上次更新：2021年2月15日 来源：[APKLUST](https://apklust.com/zh/a-dark-room-v118)
 
