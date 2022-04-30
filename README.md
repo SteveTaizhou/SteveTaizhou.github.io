@@ -1,5 +1,3 @@
-[网站](https://stevetaizhou.github.io)
-
 - 👋 Hi, I’m Steve. I live in Taizhou, China. 我是史帝夫，住在台州，中国。
 - 👀 I’m interested in python and C++. 我对python和C++很感兴趣。
 - 🌱 I’m currently learning about python. 我已经基本学会了python语言。
