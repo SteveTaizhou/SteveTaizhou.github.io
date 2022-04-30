@@ -1,5 +1,8 @@
 欢迎游玩！去[⇲这里](https://www.xiaodao0.com/admin/index.html?lang=cn)
 
+原版叫做：A Dark Room，不知道由于什么原因，翻译成了小黑屋。  
+[GitHub上的项目](https://github.com/doublespeakgames/adarkroom)
+
 由于技术原因，无法放在Steve的小工具网站上，所以先放外链。
 
 安卓版：[这里](/games/a-dark-night-2.1.0.apk) 没有测试过，语言未知。  
