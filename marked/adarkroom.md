@@ -1,7 +1,7 @@
 欢迎游玩！去[⇲国内1](https://www.xiaodao0.com/admin/index.html?lang=cn)  
 其他链接：[⇲国内2](https://qiujunya.com/adarkroom/?lang=zh_cn)
 
-官方给出的游玩链接：[⇲官网版](http://adarkroom.doublespeakgames.com/?lang=zh_cn) [⇲GitHub Pages版本](http://doublespeakgames.github.io/adarkroom)  
+官方给出的游玩链接：[⇲官网版](http://adarkroom.doublespeakgames.com/?lang=zh_cn) [⇲GitHub Pages版本](http://doublespeakgames.github.io/adarkroom/?lang=zh_cn)  
 初次加载会有点慢，接下来就会好多了。
 
 原版叫做：A Dark Room，不知道由于什么原因，翻译成了小黑屋。  
