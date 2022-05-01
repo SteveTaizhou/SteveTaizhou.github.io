@@ -7,4 +7,5 @@ obj.innerHTML=`<nav>
 	    <li><a href="..">返回</a></li>
 	    <li><a href="./">索引</a></li>
 	  </ul>
+	  <p style="color:red;">五一劳动节快乐！去看看Steve的小游戏板块。</p>
 	</nav>`
