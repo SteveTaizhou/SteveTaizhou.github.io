@@ -123,6 +123,15 @@ u[o]&&(delete u[o],c?delete n[l]:typeof n.removeAttribute!==i?n.removeAttribute(
 //https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js
 
 
+var obj3=document.createElement("div")
+obj3.setAttribute("align","right")
+document.body.appendChild(obj3)
+var obj4=document.createElement("a")
+obj4.setAttribute("href","/sitemap/index.html")
+obj4.setAttribute("style","font-size:5px;")
+obj4.innerHTML="SITE MAP"
+obj3.appendChild(obj4)
+
 
 var obj2=document.getElementsByClassName("md-content")
 for(let i=0;i<obj2.length;i++){
