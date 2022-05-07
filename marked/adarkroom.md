@@ -14,3 +14,5 @@
 版本：1.18 上次更新：2021年2月15日 来源：[APKLUST](https://apklust.com/zh/a-dark-room-v118)
 
 iOS版：[⇲这里](https://apps.apple.com/us/app/a-dark-room/id736683061)
+
+Steve的存档：[⇲这里](https://gitee.com/SteveTaizhou/my-game-items/blob/master/%E7%94%9F%E7%81%AB%E9%97%B4.txt)
