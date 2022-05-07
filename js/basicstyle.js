@@ -127,7 +127,7 @@ var obj3=document.createElement("div")
 obj3.setAttribute("align","right")
 document.body.appendChild(obj3)
 var obj4=document.createElement("a")
-obj4.setAttribute("href","/sitemap/2022年5月1日10点58分.html")
+obj4.setAttribute("href","/sitemap/2022年5月7日20点46分.html")
 obj4.setAttribute("style","font-size:5px;")
 obj4.innerHTML="SITE MAP"
 obj3.appendChild(obj4)
