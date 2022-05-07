@@ -2,6 +2,7 @@
 /* CSS Document */
 header{
 	width: 100%;
+	z-index: 2;
 }
 nav{
 	display: flex;
@@ -46,4 +47,10 @@ nav p{
 nav p:hover{
 	font-weight: bold;
 }
-	
+.md-content img{
+	opacity: 0.9;
+}
+.md-content imd:hover{
+	opacity: 1.0;
+	transition: 0.6s;
+}
