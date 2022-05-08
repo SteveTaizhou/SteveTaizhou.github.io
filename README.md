@@ -13,4 +13,4 @@ You can click the Preview link to take a look at your changes.
 
 [我在洛谷上的账号](https://www.luogu.com.cn/user/479296)
 
-当你看到“”的时候，表明左边的超链接会链接到其他网页。
+当你看到“![screenshot-nimbusweb me-2022 05 08-13_48_20](https://user-images.githubusercontent.com/85382878/167283677-349e62d7-f10d-426c-910c-6e58685b3cc0.png)”的时候，表明左边的超链接会链接到其他网页。
