@@ -59,7 +59,7 @@ wow~ ⊙o⊙ 不用准备域名，不用准备服务器，不用准备钱，不�
 4. 选择HTTP服务程序，点击创建服务。
 
 5. 静静等待。。。点击快速编辑。  
-![screenshot-dash cloudflare com-2022 05 08-15_19_43](https://user-images.githubusercontent.com/85382878/167286125-2bcf270a-522f-4f8a-bac1-56ab294425e8.png)
+![screenshot-dash cloudflare com-2022 05 08-15_21_15](https://user-images.githubusercontent.com/85382878/167286285-bda7b1e9-4919-41ad-bdb1-af43fc54de69.png)
 
 6. 把[这个](https://cdn.jsdelivr.net/gh/hunshcn/gh-proxy@master/index.js)的源代码全部贴到左侧的编辑栏，点击下面的保存并部署。  
 ![screenshot-dash cloudflare com-2022 05 08-15_23_22](https://user-images.githubusercontent.com/85382878/167286191-a4b2a36d-49ae-4757-922b-bda46372f678.png)
