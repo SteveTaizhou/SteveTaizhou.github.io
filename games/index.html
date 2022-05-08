@@ -7,12 +7,12 @@
 <link rel="stylesheet" href="/css/heads.css">
 <script src="https://cdn.bootcdn.net/ajax/libs/gitalk/1.7.2/gitalk.min.js"></script>
 <script type="text/javascript">
-  if(localStorage.viewed==1){
+  if(localStorage.getItem("viewed")==1){
     alert("好好准备期中考(●'◡'●)")
-	history.back(-1)
+    history.back(-1)
   }
   else{
-    localStorage.viewd=1
+    localStorage.setItem("viewed",1)
   }
 </script>
 </head>
