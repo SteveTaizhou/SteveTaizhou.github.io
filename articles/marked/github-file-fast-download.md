@@ -53,7 +53,7 @@ wow~ ⊙o⊙ 不用准备域名，不用准备服务器，不用准备钱，不�
 2. 点击左侧的workers  
 ![screenshot-dash cloudflare com-2022 05 08-15_17_49](https://user-images.githubusercontent.com/85382878/167286041-71ac5165-8720-4502-afb4-e9b00c0269c6.png)
 
-3. 建立服务名称。  
+3. 点击创建服务。建立服务名称。  
 ![screenshot-dash cloudflare com-2022 05 08-15_19_43](https://user-images.githubusercontent.com/85382878/167286084-4ef4feb5-2bca-4645-83e2-eac9eb9edd44.png)
 
 4. 选择HTTP服务程序，点击创建服务。
