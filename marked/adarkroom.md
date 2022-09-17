@@ -1,4 +1,4 @@
-欢迎游玩！本站链接：[这里](/adarkroom/)
+欢迎游玩！本站链接：[这里](/adarkroom/) [中文版](/adarkroom/?lang=zh_cn)
 
 其他链接：[⇲国内1](https://www.xiaodao0.com/admin/index.html?lang=cn)  
 [⇲国内2](https://qiujunya.com/adarkroom/?lang=zh_cn)
