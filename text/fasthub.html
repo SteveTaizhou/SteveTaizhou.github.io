@@ -9,19 +9,55 @@
     <link rel="stylesheet" href="/css/heads.css">
     <script src="https://cdn.bootcdn.net/ajax/libs/gitalk/1.7.2/gitalk.min.js"></script>
     <script type="text/javascript">
-        function output(text) {
+        const url = [
+            "https://gcore.jsdelivr.net/gh/",
+            "https://gh.gh2233.ml/"
+        ]
+        function output(url) {
             var elem = document.getElementById("link");
-            elem.innerHTML = text;
-            elem.href = text;
-            console.log("Link output successfully.")
+            elem.href = url;
+            elem.innerHTML = url.replace("https://", "");
         }
         function generate() {
-            var elem = document.getElementById("url");
-            var href = elem.value;
-            href = href.replace("https://github.com", "https://gcore.jsdelivr.net/gh");
-            href = href.replace("/blob/", "@");
-            console.log("Link generation completed.")
-            output(href);
+            var input = document.getElementById("url").value;
+            var type;
+            var server;
+            if (document.getElementById("t").checked) {
+                if (input.indexOf("/release/") != -1) {
+                    type = 1;
+                }
+                else {
+                    type = 0;
+                }
+            }
+            else {
+                if (document.getElementById("t1").checked) {
+                    type = 0;
+                }
+                else {
+                    type = 1;
+                }
+            }
+            if (document.getElementById("s1").checked) {
+                server = url[0];
+            }
+            else {
+                server = url[1];
+            }
+            if (server.indexOf("jsdelivr.net") != -1) {
+                if (type == 0) {
+                    input = input.replace("https://github.com/", "");
+                    input = server + input;
+                    input = input.replace("/blob/", "@");
+                    output(input);
+                }
+                else {
+                    alert("该加速源不支持此类型！")
+                }
+            }
+            else {
+                output(server + input);
+            }
         }
     </script>
 </head>
@@ -31,19 +67,28 @@
     </header>
     <div id="basic"></div>
     <h1>GitHub加速下载</h1>
-    <p>请选择域名：</p>
-    <input type="radio" name="server" id="s1" checked>gcore.jsdelivr.net
+    <p>请选择加速源：</p>
+    <input type="radio" name="server" id="s1" checked>gcore.jsdelivr.net 缓存有 速度快<br>
+    <input type="radio" name="server" id="s1">gh.gh2233.ml 速度中<br>
     <p>请选择类型：</p>
-    <input type="radio" name="type" id="t1" checked>仓库内文件
+    <input type="radio" name="type" id="t" checked>自动<br>
+    <input type="radio" name="type" id="t1">仓库内文件<br>
+    <input type="radio" name="type" id="t2">发行版<br>
     <p>
-    <ul>
-        <li>对于仓库内文件，域名应为github.com</li>
-    </ul>
-    </p>
-    <input type="url" name="url" id="url">
-    <button id="button" onclick="generate()">生成</button>
+        <input type="url" name="url" id="url">
+        <button id="button" onclick="generate()">生成</button>
     <p>目标地址：</p>
     <a href="" id="link">暂无</a>
+    <h2>帮助</h2>
+    <p>这是一个基于链接生成的GitHub加速下载工具，并不是加速器。
+        这个工具的工作原理是对您输入的链接进行分析并且生成加速链接，
+        这个加速链接在理论上是可以运行的。<b>Steve纯手打的代码，制作不易</b>！
+    </p>
+    <p>此外，欢迎安装油猴脚本
+        <a
+            href="https://greasyfork.org/zh-CN/scripts/412245-github-%E5%A2%9E%E5%BC%BA-%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD">Github
+            增强 - 高速下载</a>
+    </p>
     <div id="gitalk-container"></div>
     <script src="/js/basicstyle.js" type="text/javascript"></script>
     <script src="/js/heads.js" type="text/javascript"></script>
