@@ -20,7 +20,7 @@ document.addEventListener('visibilitychange', function () {
 var icon = document.createElement("link")
 icon.rel = "icon"
 icon.type = "image/png"
-icon.href = "favicon.png"
+icon.href = "/favicon.png"
 document.head.appendChild(icon)
 
 /**
